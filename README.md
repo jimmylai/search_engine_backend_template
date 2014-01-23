@@ -10,7 +10,10 @@
 
 ## Instructions
 ### Setup (for the first time)
-1. Create a new core in Solr (for the first time)
+1. Prepare Solr program and install Python packages
+> fab setup_env
+
+2. Create a new core in Solr (for the first time)
 > fab create_core CORENAME
 
 ### Start Server
@@ -23,9 +26,14 @@
 3. Feed the data (for the first time)
 > fab feed_data
 
-4. Enjoy the API
+4. Enjoy the API!
 
 ### Tutorial:
 * Example Dataset: Taiwan movie dataset http://data.gov.tw/node/7731
-* Data sourcehttp://nrchbms.culture.tw/OpenData/API/iCultureAPI.aspx?type=26&radius=100&format=json
-
+* Data source http://nrchbms.culture.tw/OpenData/API/iCultureAPI.aspx?type=26&radius=100&format=json
+* The processed data is in data/movie.json
+>* fab setup_env
+>* fab create_core movie
+>* fab start_solr
+>* fab feed_data:movie,data/movie
+>* fab run_django
