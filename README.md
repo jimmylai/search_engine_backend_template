@@ -34,8 +34,8 @@
 * Data source http://nrchbms.culture.tw/OpenData/API/iCultureAPI.aspx?type=26&radius=100&format=json
 * The processed data is in data/movie.json
 
->* fab setup_env
->* fab create_core movie
->* fab start_solr
->* fab feed_data:movie,data/movie
->* fab run_django
+>1. fab setup_env
+>2. fab create_core movie
+>3. fab start_solr
+>4. fab feed_data:movie,data/movie
+>5. fab run_django
