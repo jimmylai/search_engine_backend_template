@@ -26,6 +26,6 @@
 4. Enjoy the API
 
 ### Tutorial:
-#### Example Dataset: Taiwan movie dataset http://data.gov.tw/node/7731
-#### Data sourcehttp://nrchbms.culture.tw/OpenData/API/iCultureAPI.aspx?type=26&radius=100&format=json
+* Example Dataset: Taiwan movie dataset http://data.gov.tw/node/7731
+* Data sourcehttp://nrchbms.culture.tw/OpenData/API/iCultureAPI.aspx?type=26&radius=100&format=json
 
