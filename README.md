@@ -11,7 +11,7 @@
 ## Instructions
 ### Setup (for the first time)
 1. Create a new core in Solr (for the first time)
-> fab create_core CORE_NAME
+> fab create_core CORENAME
 
 ### Start Server
 1. Start solr server
@@ -25,7 +25,7 @@
 
 4. Enjoy the API
 
-Example dataset:
-http://data.gov.tw/node/7731
-http://nrchbms.culture.tw/OpenData/API/iCultureAPI.aspx?type=26&radius=100&format=json
+### Tutorial:
+#### Example Dataset: Taiwan movie dataset http://data.gov.tw/node/7731
+#### Data sourcehttp://nrchbms.culture.tw/OpenData/API/iCultureAPI.aspx?type=26&radius=100&format=json
 
