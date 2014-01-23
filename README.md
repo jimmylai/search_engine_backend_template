@@ -36,9 +36,6 @@
 
 >* fab setup_env
 >* fab create_core movie
-
 >* fab start_solr
-
 >* fab feed_data:movie,data/movie
-
 >* fab run_django
