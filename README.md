@@ -33,8 +33,8 @@
 * Example Dataset: Taiwan movie dataset http://data.gov.tw/node/7731
 * Data source http://nrchbms.culture.tw/OpenData/API/iCultureAPI.aspx?type=26&radius=100&format=json
 * The processed data is in data/movie.json
->* fab setup_env
 
+>* fab setup_env
 >* fab create_core movie
 
 >* fab start_solr
