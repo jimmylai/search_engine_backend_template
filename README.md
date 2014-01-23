@@ -10,8 +10,8 @@
 
 ## Instructions
 ### Setup (for the first time)
-1. Create a new collection (for the first time)
-> fab create_core collection1
+1. Create a new core in Solr (for the first time)
+> fab create_core CORE_NAME
 
 ### Start Server
 1. Start solr server
