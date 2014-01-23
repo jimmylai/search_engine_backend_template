@@ -3,11 +3,11 @@
 
 ## Full Stack
 ### Solr: indexing + search
-> pysolr: python interface for solr
+* pysolr: python interface for solr
 
 ### Django: backend API serving
-> djangorestframework: Restful API
-> fabric: automation
+* djangorestframework: Restful API
+* fabric: automation
 
 ## Instructions
 ### Setup (for the first time)
