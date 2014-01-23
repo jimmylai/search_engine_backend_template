@@ -4,6 +4,7 @@
 ### Solr: indexing + search
 > pysolr: python interface for solr
 ### Django: backend API serving
+
 > djangorestframework: Restful API
 > fabric: automation
 
