@@ -1,5 +1,5 @@
-# LDSP (Linux + Django + Solr + Python)
-## Search Engine Backend API Solution for fast prototyping
+## LDSP: Search Engine Backend API Solution for fast prototyping
+## LDSP = Linux + Django + Solr + Python
 
 ## Full Stack
 ### Solr: indexing + search
