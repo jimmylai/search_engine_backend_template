@@ -1,0 +1,6 @@
+Django==1.6.1
+djangorestframework==2.3.12
+ipython==1.1.0
+pysolr==3.1.0
+requests==2.2.0
+wsgiref==0.1.2

@@ -1,0 +1,5 @@
+*.py[cod]
+*.swp
+solr-4.6.0.tgz
+solr-4.6.0/
+pyenv/
