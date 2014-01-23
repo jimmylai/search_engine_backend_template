@@ -32,7 +32,7 @@
 ### Tutorial:
 * Example Dataset: Taiwan movie dataset http://data.gov.tw/node/7731
 * Data source http://nrchbms.culture.tw/OpenData/API/iCultureAPI.aspx?type=26&radius=100&format=json
-* The processed data is in data/movie.json
+* The preprocessed data is in data/movie.json
 
 >1. fab setup_env
 >2. fab create_core movie
