@@ -19,7 +19,7 @@
 
 ### Start Server
 1. Start solr server
-> fab start_solr
+> fab run_solr
 
 2. Start django server
 > fab run_django
@@ -36,6 +36,6 @@
 
 >1. fab setup_env
 >2. fab create_core movie
->3. fab start_solr
+>3. fab run_solr
 >4. fab feed_data:movie,data/movie
 >5. fab run_django
