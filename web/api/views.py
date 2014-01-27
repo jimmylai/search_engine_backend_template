@@ -6,7 +6,7 @@ from django.shortcuts import render
 
 __author__ = 'noahsark'
 
-solr = pysolr.Solr('http://localhost:9999/solr/abc')
+solr = pysolr.Solr('http://localhost:8983/solr/abc')
 
 class SearchSerializer(serializers.Serializer):
     location = serializers.RegexField("[0-9]+\.[0-9]+,[0-9]+\.[0-9]+", required=True)
